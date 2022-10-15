@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.png");
+    background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #171717!important;
 }
 
 .container {
@@ -677,7 +677,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+.contrast-color{
+    color: #171717;
 }
 
 .tight-width-whitespace {
@@ -729,6 +733,16 @@ h1 {
 h4 {
     color: #333333!important;
 }
+.citation p{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+.autor-citation p{
+    font-size: 24px;
+    font-weight: 100;
+}
+
 
 .icons {
     margin-bottom: 14px;
